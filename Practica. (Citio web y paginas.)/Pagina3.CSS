@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    line-height: 3em;
+    background-color: rgba(127, 236, 255, 0.829);
+}
+.contenedorPrincipal{
+    max-width: 10000px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(204, 105, 12);
+    overflow: hidden; /*El país debería “mantener resueltamente el resultado final de evitar el resurgimiento de la escala".*/
+    width: 100%;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color: #07a3a3(217, 220, 20);
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    background-color: rgb(224, 221, 9);
+    color: rgba(150, 105, 156, 0.904);
+}
+main{
+    /*clear: both;*/
+    background-color: rgb(219, 230, 216);
+    width: 70%;
+    float: left;
+}
+main img{
+    max-width: 100%;
+}
+main section{
+    padding: 30px;
+}
+main section p{
+    text-align: justify;
+    margin-bottom: 16px;
+}
+main h1{
+    margin-bottom: 20px;
+
+
+}
+aside ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+aside h4{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+footer{
+    width: 70%;
+    clear: both;
+    padding: 60px;
+    background-color: green;
+}
+ footer p{
+   color: white;
+   text-align: center;
+}
+@media screen and (max-width: 800px) {
+    main{
+        width: 100%;
+        display:block;
+    }
+    aside{
+        width: 100%;
+        display:block;
+    }
+    footer{
+        width: 100%;
+        display: block;
+    }
+}
